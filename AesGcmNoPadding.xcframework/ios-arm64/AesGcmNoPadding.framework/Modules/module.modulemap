@@ -1,0 +1,11 @@
+framework module AesGcmNoPadding {
+  umbrella header "AesGcmNoPadding.h"
+
+  export *
+  module * { export * }
+}
+
+module AesGcmNoPadding.Swift {
+    header "AesGcmNoPadding-Swift.h"
+    requires objc
+}

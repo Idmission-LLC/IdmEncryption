@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IdmEncryption"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.1"
   spec.summary      = "This is Idm Encryption pod."
   spec.description  = <<-DESC
                     This is the framework used for encryption & decryption
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/Idmission-LLC/IdmEncryption"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Idmission LLC" => "amol.deshmukh@idmission.com" }
-  spec.source       = { :git => "https://github.com/Idmission-LLC/IdmEncryption", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Idmission-LLC/IdmEncryption.git", :tag => "#{spec.version}" }
   spec.platform     = :ios
   spec.ios.deployment_target = "13.0"
   spec.swift_version = "5"
