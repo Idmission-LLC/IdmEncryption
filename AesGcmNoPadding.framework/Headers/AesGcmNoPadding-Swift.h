@@ -208,12 +208,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSString;
 @class NSData;
+@class NSURL;
+@class NSNumber;
 
 SWIFT_CLASS("_TtC15AesGcmNoPadding23AesGcmNoPaddingAlgorith")
 @interface AesGcmNoPaddingAlgorith : NSObject
 - (NSData * _Nullable)decryptWithUniqueKeyId:(NSString * _Nonnull)uniqueKeyId publicKey:(NSString * _Nonnull)publicKey encryptedData:(NSData * _Nonnull)encryptedData SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)zipURLWithSourceURL:(NSURL * _Nonnull)sourceURL destinationURL:(NSURL * _Nonnull)destinationURL SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
