@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IdmEncryption"
-  spec.version      = "2.0.0"
+  spec.version      = "3.0.0"
   spec.summary      = "This is Idm Encryption pod."
   spec.description  = <<-DESC
                     This is the framework used for encryption & decryption

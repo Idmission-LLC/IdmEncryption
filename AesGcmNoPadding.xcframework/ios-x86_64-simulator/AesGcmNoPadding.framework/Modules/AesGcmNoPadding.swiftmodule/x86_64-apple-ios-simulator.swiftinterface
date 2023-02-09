@@ -10,6 +10,24 @@ import Foundation
 import Swift
 import _Concurrency
 import zlib
+public struct QKMRZResult {
+  public let documentType: Swift.String
+  public let countryCode: Swift.String
+  public let surnames: Swift.String
+  public let givenNames: Swift.String
+  public let documentNumber: Swift.String
+  public let nationalityCountryCode: Swift.String
+  public let birthdate: Foundation.Date?
+  public let sex: Swift.String?
+  public let expiryDate: Foundation.Date?
+  public let personalNumber: Swift.String
+  public let personalNumber2: Swift.String?
+  public let isDocumentNumberValid: Swift.Bool
+  public let isBirthdateValid: Swift.Bool
+  public let isExpiryDateValid: Swift.Bool
+  public let isPersonalNumberValid: Swift.Bool?
+  public let allCheckDigitsValid: Swift.Bool
+}
 public struct Entry : Swift.Equatable {
   public enum EntryType : Swift.Int {
     case file
@@ -58,6 +76,7 @@ extension AesGcmNoPadding.Archive {
 @_inheritsConvenienceInitializers @objc open class AesGcmNoPaddingAlgorith : ObjectiveC.NSObject {
   @objc open func decryptWith(uniqueKeyId: Swift.String, publicKey: Swift.String, encryptedData: Foundation.Data) -> Foundation.Data?
   @objc open func zipURL(sourceURL: Foundation.URL, destinationURL: Foundation.URL) -> Swift.Bool
+  @objc open func parseMrz(strings: [Swift.String]) -> AesGcmNoPadding.MRZResult?
   @objc override dynamic public init()
   @objc deinit
 }
@@ -138,10 +157,46 @@ final public class Archive : Swift.Sequence {
   public typealias Element = AesGcmNoPadding.Entry
   public typealias Iterator = Swift.AnyIterator<AesGcmNoPadding.Entry>
 }
+public class QKMRZParser {
+  public init(ocrCorrection: Swift.Bool = false)
+  public func parse(mrzLines: [Swift.String]) -> AesGcmNoPadding.QKMRZResult?
+  public func parse(mrzString: Swift.String) -> AesGcmNoPadding.QKMRZResult?
+  @objc deinit
+}
 extension AesGcmNoPadding.Archive {
   final public func totalUnitCountForRemoving(_ entry: AesGcmNoPadding.Entry) -> Swift.Int64
   final public func totalUnitCountForReading(_ entry: AesGcmNoPadding.Entry) -> Swift.Int64
   final public func totalUnitCountForAddingItem(at url: Foundation.URL) -> Swift.Int64
+}
+@_hasMissingDesignatedInitializers @objc public class MRZResult : ObjectiveC.NSObject {
+  @objc final public let ocrText: Swift.String
+  @objc final public let documentType: Swift.String
+  @objc final public let countryCode: Swift.String
+  @objc final public let surnames: Swift.String
+  @objc final public let givenNames: Swift.String
+  @objc final public let documentNumber: Swift.String
+  @objc final public let nationality: Swift.String
+  @objc final public let birthDate: Foundation.Date?
+  @objc final public let sex: Swift.String?
+  @objc final public let expiryDate: Foundation.Date?
+  @objc final public let personalNumber: Swift.String
+  @objc final public let personalNumber2: Swift.String?
+  @objc final public let isDocumentNumberValid: Swift.Bool
+  @objc final public let isBirthDateValid: Swift.Bool
+  @objc final public let isExpiryDateValid: Swift.Bool
+  @objc final public let isPersonalNumberValid: Swift.Bool
+  @objc final public let allCheckDigitsValid: Swift.Bool
+  @objc final public let lineCounts: [Swift.Int]
+  @objc public var dictionary: [Swift.String : Swift.String] {
+    @objc get
+  }
+  public var birthDateString: Swift.String? {
+    get
+  }
+  public var expiryDateString: Swift.String? {
+    get
+  }
+  @objc deinit
 }
 extension AesGcmNoPadding.Archive {
   @available(*, deprecated, message: "Please use `Int` for `bufferSize`.")

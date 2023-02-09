@@ -188,6 +188,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import ObjectiveC;
 #endif
 
@@ -210,14 +211,46 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSData;
 @class NSURL;
 @class NSNumber;
+@class MRZResult;
 
 SWIFT_CLASS("_TtC15AesGcmNoPadding23AesGcmNoPaddingAlgorith")
 @interface AesGcmNoPaddingAlgorith : NSObject
 - (NSData * _Nullable)decryptWithUniqueKeyId:(NSString * _Nonnull)uniqueKeyId publicKey:(NSString * _Nonnull)publicKey encryptedData:(NSData * _Nonnull)encryptedData SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)zipURLWithSourceURL:(NSURL * _Nonnull)sourceURL destinationURL:(NSURL * _Nonnull)destinationURL SWIFT_WARN_UNUSED_RESULT;
+- (MRZResult * _Nullable)parseMrzWithStrings:(NSArray<NSString *> * _Nonnull)strings SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@class NSDate;
+
+/// Detected MRZ data.
+SWIFT_CLASS("_TtC15AesGcmNoPadding9MRZResult")
+@interface MRZResult : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull ocrText;
+@property (nonatomic, readonly, copy) NSString * _Nonnull documentType;
+@property (nonatomic, readonly, copy) NSString * _Nonnull countryCode;
+@property (nonatomic, readonly, copy) NSString * _Nonnull surnames;
+@property (nonatomic, readonly, copy) NSString * _Nonnull givenNames;
+@property (nonatomic, readonly, copy) NSString * _Nonnull documentNumber;
+@property (nonatomic, readonly, copy) NSString * _Nonnull nationality;
+@property (nonatomic, readonly, copy) NSDate * _Nullable birthDate;
+@property (nonatomic, readonly, copy) NSString * _Nullable sex;
+@property (nonatomic, readonly, copy) NSDate * _Nullable expiryDate;
+@property (nonatomic, readonly, copy) NSString * _Nonnull personalNumber;
+@property (nonatomic, readonly, copy) NSString * _Nullable personalNumber2;
+@property (nonatomic, readonly) BOOL isDocumentNumberValid;
+@property (nonatomic, readonly) BOOL isBirthDateValid;
+@property (nonatomic, readonly) BOOL isExpiryDateValid;
+@property (nonatomic, readonly) BOOL isPersonalNumberValid;
+@property (nonatomic, readonly) BOOL allCheckDigitsValid;
+/// Character counts for each MRZ line.
+@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull lineCounts;
+/// Decoded MRZ key-value data.
+@property (nonatomic, readonly, copy) NSDictionary<NSString *, NSString *> * _Nonnull dictionary;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
