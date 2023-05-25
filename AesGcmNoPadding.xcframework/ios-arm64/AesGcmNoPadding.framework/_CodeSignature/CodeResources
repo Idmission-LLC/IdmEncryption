@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AesGcmNoPadding-Swift.h</key>
 		<data>
-		Q7YQv+EBrOSLQ3rEx77u1VROP+w=
+		uSqNqT0OQLyFnhTXd9qKA5d8Y+Y=
 		</data>
 		<key>Headers/AesGcmNoPadding.h</key>
 		<data>
@@ -14,39 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KSV7MAe4zhMPi+HKiWsCuB5CMyo=
-		</data>
-		<key>Modules/AesGcmNoPadding.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		j7fk16RQh5lLiuz3tGzsVzO3q5c=
-		</data>
-		<key>Modules/AesGcmNoPadding.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		j7fk16RQh5lLiuz3tGzsVzO3q5c=
+		YgXyORmAyxR25djjfpga/yqcYyI=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		1JsdSYUK+h+unXPP+lfFkNbVvO4=
+		NBGmdguHjoF0iBe8nnJE72cvlSU=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		BuWyUAeJPaMRiEVLutn6bgn1epU=
+		nFCJLcg8WRMO0yCzyuJyyd3MvE8=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZZLTN2tsAgzjfKkdbm2/8vj5EdY=
+		fCMCo+zDj9YbB2+aS1bQ15j7XvE=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		1JsdSYUK+h+unXPP+lfFkNbVvO4=
+		NBGmdguHjoF0iBe8nnJE72cvlSU=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		BuWyUAeJPaMRiEVLutn6bgn1epU=
+		nFCJLcg8WRMO0yCzyuJyyd3MvE8=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ZZLTN2tsAgzjfKkdbm2/8vj5EdY=
+		fCMCo+zDj9YbB2+aS1bQ15j7XvE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAgxPIpp2ZnvXRR2DVlmCA/U7i0hKYXPH1lMZDiGIf0=
+			IOPfORIp6VWj6sll/7ihj824PVKyzmFJNhfS7TzFJnY=
 			</data>
 		</dict>
 		<key>Headers/AesGcmNoPadding.h</key>
@@ -69,60 +61,46 @@
 			BXiMx2kAo24tG+qYnSJVV7JmO4j5vpRl4GGHWqkyADk=
 			</data>
 		</dict>
-		<key>Modules/AesGcmNoPadding.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ryc8UIS6c9H6Ar6bTMfrM+7pPN+HgN1lNoKvd7mgQMs=
-			</data>
-		</dict>
-		<key>Modules/AesGcmNoPadding.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ryc8UIS6c9H6Ar6bTMfrM+7pPN+HgN1lNoKvd7mgQMs=
-			</data>
-		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qJvKBKQNAtgTbdj1GegJ4XO+DyWLU89Uh43z3W/0MM=
+			5ApN8w4ygBUl0S7IrIXEwh2CRkbQ7OQmfsG3Ic+XiK0=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xORcXH7fC6lF3WsXjBkGiyYaS++jYoejKrxYJHpdUVA=
+			+3r9NVGOmCJhP6QE9QNKrD7rb7HBgu3sPmw9phOepvA=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i5L39BZ6zDitaSuTtodxi54Xx6iXAV47NbqGHIEgPDQ=
+			yzazZauFVGoDHv9/S/oNNqy5Ejek1UZ3D51buQLYlIw=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qJvKBKQNAtgTbdj1GegJ4XO+DyWLU89Uh43z3W/0MM=
+			5ApN8w4ygBUl0S7IrIXEwh2CRkbQ7OQmfsG3Ic+XiK0=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xORcXH7fC6lF3WsXjBkGiyYaS++jYoejKrxYJHpdUVA=
+			+3r9NVGOmCJhP6QE9QNKrD7rb7HBgu3sPmw9phOepvA=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i5L39BZ6zDitaSuTtodxi54Xx6iXAV47NbqGHIEgPDQ=
+			yzazZauFVGoDHv9/S/oNNqy5Ejek1UZ3D51buQLYlIw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

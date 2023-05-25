@@ -188,6 +188,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -212,12 +213,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSURL;
 @class NSNumber;
 @class MRZResult;
+@class UIImage;
 
 SWIFT_CLASS("_TtC15AesGcmNoPadding23AesGcmNoPaddingAlgorith")
 @interface AesGcmNoPaddingAlgorith : NSObject
 - (NSData * _Nullable)decryptWithUniqueKeyId:(NSString * _Nonnull)uniqueKeyId publicKey:(NSString * _Nonnull)publicKey encryptedData:(NSData * _Nonnull)encryptedData SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)zipURLWithSourceURL:(NSURL * _Nonnull)sourceURL destinationURL:(NSURL * _Nonnull)destinationURL SWIFT_WARN_UNUSED_RESULT;
 - (MRZResult * _Nullable)parseMrzWithStrings:(NSArray<NSString *> * _Nonnull)strings SWIFT_WARN_UNUSED_RESULT;
+- (NSData * _Nullable)scalImageWithResizedImage:(UIImage * _Nonnull)resizedImage squareSize:(CGSize)squareSize isQuantized:(BOOL)isQuantized SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
