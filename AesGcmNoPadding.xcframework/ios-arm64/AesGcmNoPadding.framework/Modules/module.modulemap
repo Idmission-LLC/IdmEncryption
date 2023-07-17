@@ -6,6 +6,6 @@ framework module AesGcmNoPadding {
 }
 
 module AesGcmNoPadding.Swift {
-    header "AesGcmNoPadding-Swift.h"
-    requires objc
+  header "AesGcmNoPadding-Swift.h"
+  requires objc
 }

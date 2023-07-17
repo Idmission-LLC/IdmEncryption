@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AesGcmNoPadding-Swift.h</key>
 		<data>
-		uSqNqT0OQLyFnhTXd9qKA5d8Y+Y=
+		9KhQoX8lZ7UxbGaf0anVhA95icU=
 		</data>
 		<key>Headers/AesGcmNoPadding.h</key>
 		<data>
@@ -14,43 +14,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XPVCrnz4ISFkwXkfjHgdkyAPBys=
+		jX55g8Szxuez7+wG6bpiZlIl0KI=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ABxT7YeBYIKdB0NvJRt67pdKBJA=
+		VvJ1epiuTB0wfm3lg4/qFvIDVYo=
 		</data>
-		<key>Modules/AesGcmNoPadding.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ABxT7YeBYIKdB0NvJRt67pdKBJA=
+		nTNKj1H7fm2u4LAMDBJ69e3AkpM=
+		</data>
+		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		U7VJWymYFNH+whVbLstx00oeMFA=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1jTGezmiibMYNJI/xzJBwzLpv1I=
+		tWeTWZGyux98rNgcY4Of2iz7p44=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xz0GvunEyFE11JJ4OLicSRuPCiE=
+		U7VJWymYFNH+whVbLstx00oeMFA=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AC7a5b+DSGcZFCd/THiNgy8vDJY=
-		</data>
-		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		1jTGezmiibMYNJI/xzJBwzLpv1I=
-		</data>
-		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		xz0GvunEyFE11JJ4OLicSRuPCiE=
-		</data>
-		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		AC7a5b+DSGcZFCd/THiNgy8vDJY=
+		XcH4nA07XAc/jCsUr1lxVjRUdaw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		smN+DKOYEDSzCt1ZuhOBI9b2DvM=
+		32V0LaOdcz/cqftp5MxEAkoRfKk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IOPfORIp6VWj6sll/7ihj824PVKyzmFJNhfS7TzFJnY=
+			LWhlr6m0IMC5hh+8AKYhqx5gbYXe07s0cJuWAWMQP3w=
 			</data>
 		</dict>
 		<key>Headers/AesGcmNoPadding.h</key>
@@ -73,63 +65,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z2B4BGq10uZS+RaUPcHWnDEKCjpimvmJQJZWmdJViI8=
+			bfLYkROPPjHzKc6Y0H2/xVOFusitogbCvDW7wJiXUoc=
 			</data>
 		</dict>
-		<key>Modules/AesGcmNoPadding.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z2B4BGq10uZS+RaUPcHWnDEKCjpimvmJQJZWmdJViI8=
+			iyPtMUtDj7xCPtERq0KeDQ6S7sVANG8sUhBBi7iCick=
+			</data>
+		</dict>
+		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dM25tmadCdvfqZMWcXkTdrTCj01pm6jDlzvCT9bmzj8=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g9QJU/VBjDrDiy3s5EORbot4DtzTonCqxqd4uBmuZks=
+			XzfwHHRay7MQWHqCxTHGjTq7uzUgYh+9k5a3xEAHCr4=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RN65tpEKrq7+vEp8WsK7nb2pQvspD0IaUXP5rxOGgW0=
+			dM25tmadCdvfqZMWcXkTdrTCj01pm6jDlzvCT9bmzj8=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zVNwCPxgNztm4lwlbyIBcn33Rm3wvNJj8T3zTW4mP9s=
-			</data>
-		</dict>
-		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g9QJU/VBjDrDiy3s5EORbot4DtzTonCqxqd4uBmuZks=
-			</data>
-		</dict>
-		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RN65tpEKrq7+vEp8WsK7nb2pQvspD0IaUXP5rxOGgW0=
-			</data>
-		</dict>
-		<key>Modules/AesGcmNoPadding.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zVNwCPxgNztm4lwlbyIBcn33Rm3wvNJj8T3zTW4mP9s=
+			iqo+6PC7x2VyV8ioZ9N7AopZq1Ygz/pIdhM5W2hMl8Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			klJX8Nr91THmCt/IqHF0rdEY9Lc+csF9F4viU/R8F+I=
+			IECVokRGqc20IBJ/tjxIw25HkDMjn76RqxGiLyvrhxg=
 			</data>
 		</dict>
 	</dict>

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AesGcmNoPadding-Swift.h</key>
 		<data>
-		uSqNqT0OQLyFnhTXd9qKA5d8Y+Y=
+		kHbyQXYizoaJmW80ThG/Dp0sfDs=
 		</data>
 		<key>Headers/AesGcmNoPadding.h</key>
 		<data>
@@ -14,35 +14,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YgXyORmAyxR25djjfpga/yqcYyI=
+		NbaNkckaQoIN6+B56ygvuXAuQV4=
+		</data>
+		<key>Modules/AesGcmNoPadding.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<data>
+		3b2V6bJ315+NWgzH3+OHRnvq6bs=
+		</data>
+		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		nTNKj1H7fm2u4LAMDBJ69e3AkpM=
+		</data>
+		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		eSBiDeg5YtUD5sVSKelltnKv38A=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		NBGmdguHjoF0iBe8nnJE72cvlSU=
+		JdhHWQ1gFua2Vro/7PcpYw4uWCo=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		nFCJLcg8WRMO0yCzyuJyyd3MvE8=
+		eSBiDeg5YtUD5sVSKelltnKv38A=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fCMCo+zDj9YbB2+aS1bQ15j7XvE=
-		</data>
-		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		NBGmdguHjoF0iBe8nnJE72cvlSU=
-		</data>
-		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		nFCJLcg8WRMO0yCzyuJyyd3MvE8=
-		</data>
-		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		fCMCo+zDj9YbB2+aS1bQ15j7XvE=
+		wrCKn3i244EhVQj9sxD5+XpA47M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		smN+DKOYEDSzCt1ZuhOBI9b2DvM=
+		32V0LaOdcz/cqftp5MxEAkoRfKk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IOPfORIp6VWj6sll/7ihj824PVKyzmFJNhfS7TzFJnY=
+			hWk6wcjyx28f4nxhUgH/umBQm31wJkl7PI4xyZ0QSLs=
 			</data>
 		</dict>
 		<key>Headers/AesGcmNoPadding.h</key>
@@ -61,53 +61,53 @@
 			BXiMx2kAo24tG+qYnSJVV7JmO4j5vpRl4GGHWqkyADk=
 			</data>
 		</dict>
+		<key>Modules/AesGcmNoPadding.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rphmMZDkfZbW1lFhCWhPGRbgYoWbaLun7TyuQUPnOlU=
+			</data>
+		</dict>
+		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iyPtMUtDj7xCPtERq0KeDQ6S7sVANG8sUhBBi7iCick=
+			</data>
+		</dict>
+		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/jAkSKZj6X50S8RfOczIMVL6i6IfcyW72r08lfQFDY0=
+			</data>
+		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ApN8w4ygBUl0S7IrIXEwh2CRkbQ7OQmfsG3Ic+XiK0=
+			aNNSandWH9ynmS9MU0ciU0+Ez3Nhl9x85fVTSy45c0I=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+3r9NVGOmCJhP6QE9QNKrD7rb7HBgu3sPmw9phOepvA=
+			/jAkSKZj6X50S8RfOczIMVL6i6IfcyW72r08lfQFDY0=
 			</data>
 		</dict>
 		<key>Modules/AesGcmNoPadding.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yzazZauFVGoDHv9/S/oNNqy5Ejek1UZ3D51buQLYlIw=
-			</data>
-		</dict>
-		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5ApN8w4ygBUl0S7IrIXEwh2CRkbQ7OQmfsG3Ic+XiK0=
-			</data>
-		</dict>
-		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+3r9NVGOmCJhP6QE9QNKrD7rb7HBgu3sPmw9phOepvA=
-			</data>
-		</dict>
-		<key>Modules/AesGcmNoPadding.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yzazZauFVGoDHv9/S/oNNqy5Ejek1UZ3D51buQLYlIw=
+			sJZs0pcOk7KDGS5PBBe0JHJkOZFgMlzHI2KLWVDnm9A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			klJX8Nr91THmCt/IqHF0rdEY9Lc+csF9F4viU/R8F+I=
+			IECVokRGqc20IBJ/tjxIw25HkDMjn76RqxGiLyvrhxg=
 			</data>
 		</dict>
 	</dict>

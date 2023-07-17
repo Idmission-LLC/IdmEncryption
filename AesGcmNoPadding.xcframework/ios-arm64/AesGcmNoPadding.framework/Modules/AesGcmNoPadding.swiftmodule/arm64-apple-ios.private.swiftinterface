@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AesGcmNoPadding
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AesGcmNoPadding
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Accelerate
 @_exported import AesGcmNoPadding
 import CommonCrypto
@@ -12,6 +13,7 @@ import MetalPerformanceShaders
 import Swift
 import UIKit
 import _Concurrency
+import _StringProcessing
 import zlib
 public struct QKMRZResult {
   public let documentType: Swift.String
@@ -80,7 +82,10 @@ extension AesGcmNoPadding.Archive {
   @objc open func decryptWith(uniqueKeyId: Swift.String, publicKey: Swift.String, encryptedData: Foundation.Data) -> Foundation.Data?
   @objc open func zipURL(sourceURL: Foundation.URL, destinationURL: Foundation.URL) -> Swift.Bool
   @objc open func parseMrz(strings: [Swift.String]) -> AesGcmNoPadding.MRZResult?
-  @objc open func scalImage(resizedImage: UIKit.UIImage, squareSize: CoreGraphics.CGSize, isQuantized: Swift.Bool) -> Foundation.Data?
+  @objc open func scalImage(resizedImage: UIKit.UIImage, squareSize: CoreFoundation.CGSize, isQuantized: Swift.Bool) -> Foundation.Data?
+  @objc open func cover(plainText: Swift.String, salt: Swift.String, key: Swift.String) -> Swift.String
+  @objc open func deCover(coveredString: Swift.String, salt: Swift.String, key: Swift.String) -> Swift.String
+  @objc open func generateRanbomKey() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
@@ -113,10 +118,10 @@ extension AesGcmNoPadding.Archive {
     get
   }
 }
-public var defaultReadChunkSize: Swift.Int
-public var defaultWriteChunkSize: Swift.Int
-public var defaultFilePermissions: Swift.UInt16
-public var defaultDirectoryPermissions: Swift.UInt16
+public let defaultReadChunkSize: Swift.Int
+public let defaultWriteChunkSize: Swift.Int
+public let defaultFilePermissions: Swift.UInt16
+public let defaultDirectoryPermissions: Swift.UInt16
 final public class Archive : Swift.Sequence {
   public enum ArchiveError : Swift.Error {
     case unreadableArchive
@@ -229,3 +234,14 @@ public class MetalBilinearScaler {
   public init()
   @objc deinit
 }
+extension AesGcmNoPadding.Entry.EntryType : Swift.Equatable {}
+extension AesGcmNoPadding.Entry.EntryType : Swift.Hashable {}
+extension AesGcmNoPadding.Entry.EntryType : Swift.RawRepresentable {}
+extension AesGcmNoPadding.CompressionMethod : Swift.Equatable {}
+extension AesGcmNoPadding.CompressionMethod : Swift.Hashable {}
+extension AesGcmNoPadding.CompressionMethod : Swift.RawRepresentable {}
+extension AesGcmNoPadding.Archive.ArchiveError : Swift.Equatable {}
+extension AesGcmNoPadding.Archive.ArchiveError : Swift.Hashable {}
+extension AesGcmNoPadding.Archive.AccessMode : Swift.Equatable {}
+extension AesGcmNoPadding.Archive.AccessMode : Swift.Hashable {}
+extension AesGcmNoPadding.Archive.AccessMode : Swift.RawRepresentable {}
