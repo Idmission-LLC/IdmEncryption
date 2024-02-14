@@ -1,7 +1,7 @@
 framework module AesGcmNoPadding {
   umbrella header "AesGcmNoPadding.h"
-
   export *
+
   module * { export * }
 }
 

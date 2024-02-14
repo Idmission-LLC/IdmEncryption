@@ -2104,39 +2104,6 @@
             ]
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AesGcmNoPadding.CompressionMethod?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CompressionMethod",
-                    "printedName": "AesGcmNoPadding.CompressionMethod",
-                    "usr": "s:15AesGcmNoPadding17CompressionMethodO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15AesGcmNoPadding17CompressionMethodO8rawValueACSgs6UInt16V_tcfc",
-            "mangledName": "$s15AesGcmNoPadding17CompressionMethodO8rawValueACSgs6UInt16V_tcfc",
-            "moduleName": "AesGcmNoPadding",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -2174,6 +2141,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AesGcmNoPadding.CompressionMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CompressionMethod",
+                    "printedName": "AesGcmNoPadding.CompressionMethod",
+                    "usr": "s:15AesGcmNoPadding17CompressionMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15AesGcmNoPadding17CompressionMethodO8rawValueACSgs6UInt16V_tcfc",
+            "mangledName": "$s15AesGcmNoPadding17CompressionMethodO8rawValueACSgs6UInt16V_tcfc",
+            "moduleName": "AesGcmNoPadding",
+            "implicit": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -6817,33 +6817,19 @@
         "usr": "s:10Foundation4DataV",
         "mangledName": "$s10Foundation4DataV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
         "declAttributes": [
-          "Frozen"
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
         ],
         "isExternal": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ReferenceConvertible",
-            "printedName": "ReferenceConvertible",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ReferenceType",
-                "printedName": "ReferenceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSData",
-                    "printedName": "Foundation.NSData",
-                    "usr": "c:objc(cs)NSData"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation20ReferenceConvertibleP",
-            "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7236,24 +7222,25 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -7276,6 +7263,27 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
           },
           {
             "kind": "Conformance",
@@ -7538,6 +7546,16 @@
         "usr": "s:10Foundation3URLV",
         "mangledName": "$s10Foundation3URLV",
         "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
         "isExternal": true,
         "conformances": [
           {
@@ -7682,6 +7700,356 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 833,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2390,
+      "length": 3,
+      "value": "\"P\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2401,
+      "length": 3,
+      "value": "\"F\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2661,
+      "length": 4,
+      "value": "\"<<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2684,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2695,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2758,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2775,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2780,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2820,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2951,
+      "length": 3,
+      "value": "\"M\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2963,
+      "length": 6,
+      "value": "\"MALE\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2983,
+      "length": 3,
+      "value": "\"F\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 2995,
+      "length": 8,
+      "value": "\"FEMALE\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 3017,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 3029,
+      "length": 13,
+      "value": "\"UNSPECIFIED\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3373,
+      "length": 4,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3424,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3431,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 3490,
+      "length": 4,
+      "value": "\"19\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 3497,
+      "length": 4,
+      "value": "\"20\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3830,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3837,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3882,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 3888,
+      "length": 4,
+      "value": "\"19\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 3895,
+      "length": 4,
+      "value": "\"20\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4084,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4095,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4235,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4246,
+      "length": 3,
+      "value": "\"O\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4272,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4283,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4309,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4320,
+      "length": 3,
+      "value": "\"Z\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4346,
+      "length": 3,
+      "value": "\"8\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4357,
+      "length": 3,
+      "value": "\"B\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4479,
+      "length": 3,
+      "value": "\"O\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4490,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4516,
+      "length": 3,
+      "value": "\"Q\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4527,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4553,
+      "length": 3,
+      "value": "\"U\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4564,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4590,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4601,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4627,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4638,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4664,
+      "length": 3,
+      "value": "\"Z\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4675,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4701,
+      "length": 3,
+      "value": "\"B\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZFieldFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 4712,
+      "length": 3,
+      "value": "\"8\""
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
       "offset": 780,
@@ -7817,9 +8185,212 @@
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
       "kind": "IntegerLiteral",
+      "offset": 2428,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2432,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
       "offset": 3334,
       "length": 2,
       "value": "46"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3561,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3566,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3657,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3662,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3671,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3745,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3750,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4027,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "StringLiteral",
+      "offset": 4403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4526,
+      "length": 5,
+      "value": "0x400"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5476,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5756,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "StringLiteral",
+      "offset": 5870,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6012,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6431,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6437,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8116,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8221,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9945,
+      "length": 3,
+      "value": "789"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10615,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10704,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13840,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14092,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14350,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
@@ -7843,6 +8414,202 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2064,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2077,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2090,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2178,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2189,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2265,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2276,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2358,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2369,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2391,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2472,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2484,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2567,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2578,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2600,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2664,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2675,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2750,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2761,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2783,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2863,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2875,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2955,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2967,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3042,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3054,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3136,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3147,
+      "length": 2,
+      "value": "29"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Reading.swift",
       "kind": "BooleanLiteral",
       "offset": 1152,
@@ -7851,10 +8618,59 @@
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Reading.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1255,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Reading.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Reading.swift",
+      "kind": "StringLiteral",
+      "offset": 1868,
+      "length": 5,
+      "value": "\"wb+\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Reading.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2400,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Reading.swift",
       "kind": "BooleanLiteral",
       "offset": 4372,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Reading.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Reading.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4592,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Reading.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6004,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
@@ -7906,11 +8722,494 @@
       "value": "20"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2474,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2586,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2690,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2803,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2906,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3014,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3131,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3246,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3345,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3453,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3747,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3874,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3928,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3992,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4218,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4277,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4345,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4425,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4489,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4562,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6002,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6118,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6232,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6340,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6583,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6709,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6781,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6839,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1087,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2040,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2583,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2618,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3405,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4484,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4528,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4569,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5030,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5208,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5520,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5610,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5931,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7177,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7218,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8063,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8146,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8436,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8548,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8665,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8755,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12806,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12841,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12872,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12947,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13664,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14013,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14641,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14698,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15363,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15448,
+      "length": 3,
+      "value": "789"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15630,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15652,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15741,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15842,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15927,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16021,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16393,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
@@ -7924,7 +9223,7 @@
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 1,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
@@ -7938,7 +9237,7 @@
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 1,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
@@ -7946,6 +9245,349 @@
       "offset": 413,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3369,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
+      "kind": "StringLiteral",
+      "offset": 3758,
+      "length": 4,
+      "value": "\"rb\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
+      "kind": "StringLiteral",
+      "offset": 4429,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
+      "kind": "StringLiteral",
+      "offset": 4450,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8575,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8589,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12086,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12630,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Writing.swift",
+      "kind": "StringLiteral",
+      "offset": 15996,
+      "length": 5,
+      "value": "\"rb+\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 620,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 811,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 961,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 18,
+      "value": "\"ProtocolVersion1\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1098,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1132,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1229,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1233,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2513,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3671,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 3712,
+      "length": 32,
+      "value": "\"***###*** Error info: \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 3743,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3765,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "Array",
+      "offset": 3990,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "Array",
+      "offset": 4001,
+      "length": 6,
+      "value": "[2, 3]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 4362,
+      "length": 39,
+      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4487,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 4604,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 4615,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 4661,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 4903,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 6135,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 6270,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 7037,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 7172,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7281,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7291,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 7413,
+      "length": 32,
+      "value": "\"Failed to generate random salt\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 956,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "Array",
+      "offset": 1112,
+      "length": 9,
+      "value": "[7, 3, 1]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1142,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1406,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1434,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1637,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1695,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1778,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1825,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
@@ -7969,11 +9611,305 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2156,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2169,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2223,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2230,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "StringLiteral",
+      "offset": 2236,
+      "length": 3,
+      "value": "\"V\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2350,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2426,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2437,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2501,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2512,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2605,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2616,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2638,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2718,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2730,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2803,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2815,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2837,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2901,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2913,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2988,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3000,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3022,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3104,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3133,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3137,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3234,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3246,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
       "kind": "BooleanLiteral",
       "offset": 1620,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1742,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1989,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2833,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2900,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3564,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3692,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3790,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4066,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4210,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4588,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4755,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
@@ -8026,15 +9962,183 @@
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4635,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4854,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5203,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5309,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5407,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7233,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
       "kind": "Array",
       "offset": 12375,
       "length": 3189,
       "value": "[0x00000000, 0x77073096, 0xee0e612c, 0x990951ba, 0x076dc419, 0x706af48f, 0xe963a535, 0x9e6495a3, 0x0edb8832, 0x79dcb8a4, 0xe0d5e91e, 0x97d2d988, 0x09b64c2b, 0x7eb17cbd, 0xe7b82d07, 0x90bf1d91, 0x1db71064, 0x6ab020f2, 0xf3b97148, 0x84be41de, 0x1adad47d, 0x6ddde4eb, 0xf4d4b551, 0x83d385c7, 0x136c9856, 0x646ba8c0, 0xfd62f97a, 0x8a65c9ec, 0x14015c4f, 0x63066cd9, 0xfa0f3d63, 0x8d080df5, 0x3b6e20c8, 0x4c69105e, 0xd56041e4, 0xa2677172, 0x3c03e4d1, 0x4b04d447, 0xd20d85fd, 0xa50ab56b, 0x35b5a8fa, 0x42b2986c, 0xdbbbc9d6, 0xacbcf940, 0x32d86ce3, 0x45df5c75, 0xdcd60dcf, 0xabd13d59, 0x26d930ac, 0x51de003a, 0xc8d75180, 0xbfd06116, 0x21b4f4b5, 0x56b3c423, 0xcfba9599, 0xb8bda50f, 0x2802b89e, 0x5f058808, 0xc60cd9b2, 0xb10be924, 0x2f6f7c87, 0x58684c11, 0xc1611dab, 0xb6662d3d, 0x76dc4190, 0x01db7106, 0x98d220bc, 0xefd5102a, 0x71b18589, 0x06b6b51f, 0x9fbfe4a5, 0xe8b8d433, 0x7807c9a2, 0x0f00f934, 0x9609a88e, 0xe10e9818, 0x7f6a0dbb, 0x086d3d2d, 0x91646c97, 0xe6635c01, 0x6b6b51f4, 0x1c6c6162, 0x856530d8, 0xf262004e, 0x6c0695ed, 0x1b01a57b, 0x8208f4c1, 0xf50fc457, 0x65b0d9c6, 0x12b7e950, 0x8bbeb8ea, 0xfcb9887c, 0x62dd1ddf, 0x15da2d49, 0x8cd37cf3, 0xfbd44c65, 0x4db26158, 0x3ab551ce, 0xa3bc0074, 0xd4bb30e2, 0x4adfa541, 0x3dd895d7, 0xa4d1c46d, 0xd3d6f4fb, 0x4369e96a, 0x346ed9fc, 0xad678846, 0xda60b8d0, 0x44042d73, 0x33031de5, 0xaa0a4c5f, 0xdd0d7cc9, 0x5005713c, 0x270241aa, 0xbe0b1010, 0xc90c2086, 0x5768b525, 0x206f85b3, 0xb966d409, 0xce61e49f, 0x5edef90e, 0x29d9c998, 0xb0d09822, 0xc7d7a8b4, 0x59b33d17, 0x2eb40d81, 0xb7bd5c3b, 0xc0ba6cad, 0xedb88320, 0x9abfb3b6, 0x03b6e20c, 0x74b1d29a, 0xead54739, 0x9dd277af, 0x04db2615, 0x73dc1683, 0xe3630b12, 0x94643b84, 0x0d6d6a3e, 0x7a6a5aa8, 0xe40ecf0b, 0x9309ff9d, 0x0a00ae27, 0x7d079eb1, 0xf00f9344, 0x8708a3d2, 0x1e01f268, 0x6906c2fe, 0xf762575d, 0x806567cb, 0x196c3671, 0x6e6b06e7, 0xfed41b76, 0x89d32be0, 0x10da7a5a, 0x67dd4acc, 0xf9b9df6f, 0x8ebeeff9, 0x17b7be43, 0x60b08ed5, 0xd6d6a3e8, 0xa1d1937e, 0x38d8c2c4, 0x4fdff252, 0xd1bb67f1, 0xa6bc5767, 0x3fb506dd, 0x48b2364b, 0xd80d2bda, 0xaf0a1b4c, 0x36034af6, 0x41047a60, 0xdf60efc3, 0xa867df55, 0x316e8eef, 0x4669be79, 0xcb61b38c, 0xbc66831a, 0x256fd2a0, 0x5268e236, 0xcc0c7795, 0xbb0b4703, 0x220216b9, 0x5505262f, 0xc5ba3bbe, 0xb2bd0b28, 0x2bb45a92, 0x5cb36a04, 0xc2d7ffa7, 0xb5d0cf31, 0x2cd99e8b, 0x5bdeae1d, 0x9b64c2b0, 0xec63f226, 0x756aa39c, 0x026d930a, 0x9c0906a9, 0xeb0e363f, 0x72076785, 0x05005713, 0x95bf4a82, 0xe2b87a14, 0x7bb12bae, 0x0cb61b38, 0x92d28e9b, 0xe5d5be0d, 0x7cdcefb7, 0x0bdbdf21, 0x86d3d2d4, 0xf1d4e242, 0x68ddb3f8, 0x1fda836e, 0x81be16cd, 0xf6b9265b, 0x6fb077e1, 0x18b74777, 0x88085ae6, 0xff0f6a70, 0x66063bca, 0x11010b5c, 0x8f659eff, 0xf862ae69, 0x616bffd3, 0x166ccf45, 0xa00ae278, 0xd70dd2ee, 0x4e048354, 0x3903b3c2, 0xa7672661, 0xd06016f7, 0x4969474d, 0x3e6e77db, 0xaed16a4a, 0xd9d65adc, 0x40df0b66, 0x37d83bf0, 0xa9bcae53, 0xdebb9ec5, 0x47b2cf7f, 0x30b5ffe9, 0xbdbdf21c, 0xcabac28a, 0x53b39330, 0x24b4a3a6, 0xbad03605, 0xcdd70693, 0x54de5729, 0x23d967bf, 0xb3667a2e, 0xc4614ab8, 0x5d681b02, 0x2a6f2b94, 0xb40bbe37, 0xc30c8ea1, 0x5a05df1b, 0x2d02ef8d]"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16000,
+      "length": 10,
+      "value": "0xffffffff"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16222,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16392,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16438,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16501,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
       "kind": "IntegerLiteral",
       "offset": 673,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 872,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 3,
+      "value": "\"r\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 953,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "StringLiteral",
+      "offset": 973,
+      "length": 3,
+      "value": "\"a\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1493,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2678,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3607,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3999,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+MemoryFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4346,
       "length": 1,
       "value": "0"
     },
@@ -8207,6 +10311,181 @@
       "value": "22"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "StringLiteral",
+      "offset": 9636,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "StringLiteral",
+      "offset": 9655,
+      "length": 1,
+      "value": "\":\/\/\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10421,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12461,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13593,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13667,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13756,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13956,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14479,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16123,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16226,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16334,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16451,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16566,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16679,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16787,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16898,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17180,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17287,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17345,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17412,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17491,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17555,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17628,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17690,
+      "length": 2,
+      "value": "20"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/QKMRZParser.swift",
       "kind": "IntegerLiteral",
       "offset": 223,
@@ -8277,11 +10556,382 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/QKMRZParser.swift",
+      "kind": "StringLiteral",
+      "offset": 990,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/QKMRZParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1158,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/QKMRZParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1529,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Progress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1821,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+Progress.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2148,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1350,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1490,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1595,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1679,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1690,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1800,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1811,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1842,
+      "length": 14,
+      "value": "\"MRZValid_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1880,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1886,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1951,
+      "length": 13,
+      "value": "\"MRZData_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 17,
+      "value": "\"DateofBirth_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2040,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2060,
+      "length": 24,
+      "value": "\"DateofBirth_Parsed_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2105,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2111,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2132,
+      "length": 16,
+      "value": "\"ExpiryDate_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2181,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2201,
+      "length": 23,
+      "value": "\"ExpiryDate_Parsed_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2246,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2273,
+      "length": 14,
+      "value": "\"IDNumber_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2289,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2307,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2326,
+      "length": 15,
+      "value": "\"FirstName_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2378,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2392,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2413,
+      "length": 20,
+      "value": "\"IssuingCountry_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2464,
+      "length": 17,
+      "value": "\"Nationality_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2512,
+      "length": 14,
+      "value": "\"LastName_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2555,
+      "length": 15,
+      "value": "\"LastName2_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2599,
+      "length": 12,
+      "value": "\"Gender_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2620,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2640,
+      "length": 10,
+      "value": "\"Name_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2652,
+      "length": 27,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2666,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2678,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2697,
+      "length": 15,
+      "value": "\"IDNumber2_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2741,
+      "length": 27,
+      "value": "\"IDNumber2NoCheckDigit_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2810,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2821,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2842,
+      "length": 13,
+      "value": "\"MRZCode_MRZ\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3974,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4253,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4278,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4282,
+      "length": 2,
+      "value": "30"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 9,
       "value": "\"AesGcmNoPadding.MRZResult\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4432,
+      "length": 12,
+      "value": "\"dd\/MM\/yyyy\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4503,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
@@ -8305,6 +10955,223 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2210,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2223,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2277,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2284,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "StringLiteral",
+      "offset": 2290,
+      "length": 3,
+      "value": "\"V\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2393,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2404,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2480,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2491,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2555,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2566,
+      "length": 2,
+      "value": "39"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2659,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2670,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2692,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2772,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2784,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2857,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2869,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2891,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2955,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2967,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3042,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3054,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3076,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3201,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3213,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3360,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3372,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3395,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3476,
+      "length": 2,
+      "value": "43"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/TD3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3488,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+ReadingDeprecated.swift",
       "kind": "BooleanLiteral",
       "offset": 532,
@@ -8319,11 +11186,46 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/String-Ext.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/String-Ext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 636,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
       "kind": "BooleanLiteral",
       "offset": 1849,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2726,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2825,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "StringLiteral",
+      "offset": 3492,
+      "length": 3,
+      "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
@@ -8333,11 +11235,1236 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6363,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6416,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6464,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6497,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6562,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6652,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8580,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8806,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9707,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10302,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10468,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11125,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "FloatLiteral",
+      "offset": 12285,
+      "length": 12,
+      "value": "1000000000.0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12867,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13728,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13847,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13851,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13902,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13905,
+      "length": 2,
+      "value": "63"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13960,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13964,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14017,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14021,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14073,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14077,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14108,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14193,
+      "length": 4,
+      "value": "1980"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14214,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14247,
+      "length": 4,
+      "value": "1900"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14701,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14759,
+      "length": 4,
+      "value": "1900"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14919,
+      "length": 4,
+      "value": "1980"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14933,
+      "length": 4,
+      "value": "1980"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14961,
+      "length": 4,
+      "value": "2099"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14975,
+      "length": 4,
+      "value": "2099"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15026,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15162,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15178,
+      "length": 4,
+      "value": "1980"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15186,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15361,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15539,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15554,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15568,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/FileManager+ZIP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16599,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
       "kind": "IntegerLiteral",
       "offset": 709,
       "length": 1,
       "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "Array",
+      "offset": 1160,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "Array",
+      "offset": 1451,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2317,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2377,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2844,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2943,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2980,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3003,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3112,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3221,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3279,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3391,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3437,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3545,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3656,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3686,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4253,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4337,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5068,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5354,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5385,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5490,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5548,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5778,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+ZIP64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6114,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1820,
+      "length": 4,
+      "value": "\"rb\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2312,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2439,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2556,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2657,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2767,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2866,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 3335,
+      "length": 5,
+      "value": "\"rb+\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3531,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 3991,
+      "length": 4,
+      "value": "\"rb\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 4030,
+      "length": 5,
+      "value": "\"wb+\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 4070,
+      "length": 5,
+      "value": "\"rb+\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4812,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4834,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4939,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5056,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5157,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5267,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5631,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Archive+BackingConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5926,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2552,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2741,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2744,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2815,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3309,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4235,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4238,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4386,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5310,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5615,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "FloatLiteral",
+      "offset": 6744,
+      "length": 6,
+      "value": "-127.5"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6783,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "FloatLiteral",
+      "offset": 6787,
+      "length": 5,
+      "value": "127.5"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6822,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6836,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6939,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6962,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7062,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/MetalBilinearScaler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7089,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1100,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1213,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1325,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1433,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1539,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1645,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1741,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1846,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1953,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2058,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2165,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2468,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2579,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2641,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2699,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2755,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2812,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2859,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2915,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2973,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3029,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3087,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3378,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5178,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5282,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5395,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5507,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5615,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5721,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5827,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5923,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6028,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6135,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6240,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6347,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6455,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6561,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6674,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6787,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6905,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7260,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7363,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7426,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7488,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7546,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7603,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7660,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7707,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7763,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7821,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7877,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7935,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7994,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8051,
+      "length": 2,
+      "value": "34"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8115,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8179,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8248,
+      "length": 2,
+      "value": "42"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8569,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9648,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9791,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Entry+Serialization.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9861,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/URL+ZIP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 702,
+      "length": 4,
+      "value": "true"
     }
   ]
 }
