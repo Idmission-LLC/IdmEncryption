@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oowaFFNwDLTCX5sJlwn5bCRWgv0=
+		HnWNqTQDWkPvswLfy9wKv/aoYKE=
 		</data>
 		<key>Modules/AesGcmNoPadding.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
@@ -43,6 +43,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		rY47CsMRa4TMiw2g65UyUtzBdMw=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		ucg9pita0v8d353x3NuGfxweQYU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -108,6 +112,13 @@
 			<key>hash2</key>
 			<data>
 			cw7fnfgPGBS4BhtAvvrCJr8WI2otmmgLV2aFxokKVbw=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
 			</data>
 		</dict>
 	</dict>

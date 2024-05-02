@@ -1,2 +1,2 @@
-# IdmEncryption v6.0.0
+# IdmEncryption v7.0.0
 IDM Repository
