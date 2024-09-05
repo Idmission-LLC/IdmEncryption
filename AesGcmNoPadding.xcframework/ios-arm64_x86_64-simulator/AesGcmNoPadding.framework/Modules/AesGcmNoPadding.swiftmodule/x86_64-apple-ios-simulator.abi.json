@@ -1550,17 +1550,43 @@
       },
       {
         "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "AesGcmNoPadding"
+        "moduleName": "AesGcmNoPadding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "AesGcmNoPadding"
+        "moduleName": "AesGcmNoPadding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1568,438 +1594,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AesGcmNoPadding"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AesGcmNoPaddingAlgorith",
-        "printedName": "AesGcmNoPaddingAlgorith",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "decryptWith",
-            "printedName": "decryptWith(uniqueKeyId:publicKey:encryptedData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)decryptWithUniqueKeyId:publicKey:encryptedData:",
-            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC11decryptWith11uniqueKeyId06publicI013encryptedData10Foundation0M0VSgSS_SSAJtF",
-            "moduleName": "AesGcmNoPadding",
-            "isOpen": true,
-            "objc_name": "decryptWithUniqueKeyId:publicKey:encryptedData:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "zipURL",
-            "printedName": "zipURL(sourceURL:destinationURL:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)zipURLWithSourceURL:destinationURL:",
-            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC6zipURL06sourceG0011destinationG0Sb10Foundation0G0V_AItF",
-            "moduleName": "AesGcmNoPadding",
-            "isOpen": true,
-            "objc_name": "zipURLWithSourceURL:destinationURL:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "parseMrz",
-            "printedName": "parseMrz(strings:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AesGcmNoPadding.MRZResult?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MRZResult",
-                    "printedName": "AesGcmNoPadding.MRZResult",
-                    "usr": "c:@M@AesGcmNoPadding@objc(cs)MRZResult"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)parseMrzWithStrings:",
-            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC8parseMrz7stringsAA9MRZResultCSgSaySSG_tF",
-            "moduleName": "AesGcmNoPadding",
-            "isOpen": true,
-            "objc_name": "parseMrzWithStrings:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "scalImage",
-            "printedName": "scalImage(resizedImage:squareSize:isQuantized:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGSize",
-                "printedName": "CoreFoundation.CGSize",
-                "usr": "c:@S@CGSize"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)scalImageWithResizedImage:squareSize:isQuantized:",
-            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC9scalImage07resizedG010squareSize11isQuantized10Foundation4DataVSgSo7UIImageC_So6CGSizeVSbtF",
-            "moduleName": "AesGcmNoPadding",
-            "isOpen": true,
-            "objc_name": "scalImageWithResizedImage:squareSize:isQuantized:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "cover",
-            "printedName": "cover(plainText:salt:key:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)coverWithPlainText:salt:key:",
-            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC5cover9plainText4salt3keyS2S_S2StF",
-            "moduleName": "AesGcmNoPadding",
-            "isOpen": true,
-            "objc_name": "coverWithPlainText:salt:key:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "deCover",
-            "printedName": "deCover(coveredString:salt:key:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)deCoverWithCoveredString:salt:key:",
-            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC7deCover13coveredString4salt3keyS2S_S2StF",
-            "moduleName": "AesGcmNoPadding",
-            "isOpen": true,
-            "objc_name": "deCoverWithCoveredString:salt:key:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "generateRanbomKey",
-            "printedName": "generateRanbomKey()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)generateRanbomKey",
-            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC17generateRanbomKeySSyF",
-            "moduleName": "AesGcmNoPadding",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AesGcmNoPaddingAlgorith",
-                "printedName": "AesGcmNoPadding.AesGcmNoPaddingAlgorith",
-                "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)init",
-            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithCACycfc",
-            "moduleName": "AesGcmNoPadding",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith",
-        "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC",
-        "moduleName": "AesGcmNoPadding",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AesGcmNoPadding",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AesGcmNoPadding",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AesGcmNoPadding",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AesGcmNoPadding",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -4832,6 +4426,597 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AesGcmNoPaddingAlgorith",
+        "printedName": "AesGcmNoPaddingAlgorith",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decryptWith",
+            "printedName": "decryptWith(uniqueKeyId:publicKey:encryptedData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)decryptWithUniqueKeyId:publicKey:encryptedData:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC11decryptWith11uniqueKeyId06publicI013encryptedData10Foundation0M0VSgSS_SSAJtF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "decryptWithUniqueKeyId:publicKey:encryptedData:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AesGcmNoPaddingAlgorith",
+                "printedName": "AesGcmNoPadding.AesGcmNoPaddingAlgorith",
+                "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)init",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithCACycfc",
+            "moduleName": "AesGcmNoPadding",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "zipURL",
+            "printedName": "zipURL(sourceURL:destinationURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)zipURLWithSourceURL:destinationURL:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC6zipURL06sourceG0011destinationG0Sb10Foundation0G0V_AItF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "zipURLWithSourceURL:destinationURL:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "parseMrz",
+            "printedName": "parseMrz(strings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AesGcmNoPadding.MRZResult?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MRZResult",
+                    "printedName": "AesGcmNoPadding.MRZResult",
+                    "usr": "c:@M@AesGcmNoPadding@objc(cs)MRZResult"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)parseMrzWithStrings:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC8parseMrz7stringsAA9MRZResultCSgSaySSG_tF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "parseMrzWithStrings:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scalImage",
+            "printedName": "scalImage(resizedImage:squareSize:isQuantized:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)scalImageWithResizedImage:squareSize:isQuantized:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC9scalImage07resizedG010squareSize11isQuantized10Foundation4DataVSgSo7UIImageC_So6CGSizeVSbtF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "scalImageWithResizedImage:squareSize:isQuantized:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptRequestWithData",
+            "printedName": "decryptRequestWithData(encryptedPayload:secret:knownSecret:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)decryptRequestWithDataWithEncryptedPayload:secret:knownSecret:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC22decryptRequestWithData16encryptedPayload6secret11knownSecret10Foundation0I0VAJ_S2StF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "decryptRequestWithDataWithEncryptedPayload:secret:knownSecret:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptRequest",
+            "printedName": "decryptRequest(encryptedPayload:secret:knownSecret:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)decryptRequestWithEncryptedPayload:secret:knownSecret:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC14decryptRequest16encryptedPayload6secret11knownSecretS2S_S2StF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "decryptRequestWithEncryptedPayload:secret:knownSecret:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encryptRequest",
+            "printedName": "encryptRequest(payload:secret:knownSecret:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)encryptRequestWithPayload:secret:knownSecret:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC14encryptRequest7payload6secret11knownSecretS2S_S2StF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "encryptRequestWithPayload:secret:knownSecret:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cover",
+            "printedName": "cover(plainText:salt:key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)coverWithPlainText:salt:key:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC5cover9plainText4salt3keyS2S_S2StF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "coverWithPlainText:salt:key:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deCover",
+            "printedName": "deCover(coveredString:salt:key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)deCoverWithCoveredString:salt:key:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC7deCover13coveredString4salt3keyS2S_S2StF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "deCoverWithCoveredString:salt:key:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateRanbomKey",
+            "printedName": "generateRanbomKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)generateRanbomKey",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC17generateRanbomKeySSyF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith",
+        "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC",
+        "moduleName": "AesGcmNoPadding",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "QKMRZParser",
         "printedName": "QKMRZParser",
@@ -6262,6 +6447,37 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding"
       },
       {
         "kind": "Import",
@@ -9310,209 +9526,6 @@
       "value": "\"rb+\""
     },
     {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 620,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 807,
-      "length": 3,
-      "value": "256"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 811,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 961,
-      "length": 5,
-      "value": "65536"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 1041,
-      "length": 18,
-      "value": "\"ProtocolVersion1\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1098,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1132,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1229,
-      "length": 3,
-      "value": "128"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1233,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2513,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3671,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 3712,
-      "length": 32,
-      "value": "\"***###*** Error info: \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 3743,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3765,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "Array",
-      "offset": 3990,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "Array",
-      "offset": 4001,
-      "length": 6,
-      "value": "[2, 3]"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 4362,
-      "length": 39,
-      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4487,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 4604,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 4615,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 4661,
-      "length": 3,
-      "value": "\"<\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 4903,
-      "length": 4,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 6135,
-      "length": 7,
-      "value": "\"Error\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 6270,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 7037,
-      "length": 7,
-      "value": "\"Error\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 7172,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7281,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7291,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
-      "kind": "StringLiteral",
-      "offset": 7413,
-      "length": 32,
-      "value": "\"Failed to generate random salt\""
-    },
-    {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/MRZField.swift",
       "kind": "StringLiteral",
       "offset": 849,
@@ -9910,6 +9923,90 @@
       "offset": 4755,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 449,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 32,
+      "value": "\"***###*** Error info: \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 521,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 543,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "Array",
+      "offset": 768,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "Array",
+      "offset": 779,
+      "length": 6,
+      "value": "[2, 3]"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 39,
+      "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1265,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 1393,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 1439,
+      "length": 3,
+      "value": "\"<\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Helper.swift",
+      "kind": "StringLiteral",
+      "offset": 1681,
+      "length": 4,
+      "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/ZIPFoundation\/Data+Compression.swift",
@@ -10484,6 +10581,216 @@
       "offset": 17690,
       "length": 2,
       "value": "20"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 643,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 830,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 834,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 984,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "StringLiteral",
+      "offset": 1064,
+      "length": 18,
+      "value": "\"ProtocolVersion1\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1121,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1155,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1252,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1256,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2536,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 198,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 228,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 680,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 721,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 813,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 817,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "StringLiteral",
+      "offset": 2096,
+      "length": 23,
+      "value": "\"Invalid base64 string\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2127,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2244,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2299,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2312,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2357,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "StringLiteral",
+      "offset": 2733,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "StringLiteral",
+      "offset": 2818,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "StringLiteral",
+      "offset": 2906,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "StringLiteral",
+      "offset": 3875,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "StringLiteral",
+      "offset": 3963,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4130,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4169,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+RQRSEncryption.swift",
+      "kind": "StringLiteral",
+      "offset": 4838,
+      "length": 23,
+      "value": "\"Key derivation failed\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/QKMRZParser.swift",
@@ -11184,6 +11491,55 @@
       "offset": 884,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Dilo.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Dilo.swift",
+      "kind": "StringLiteral",
+      "offset": 1193,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Dilo.swift",
+      "kind": "StringLiteral",
+      "offset": 1960,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Dilo.swift",
+      "kind": "StringLiteral",
+      "offset": 2095,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Dilo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2204,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Dilo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2214,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/AesGcmNoPadding+Dilo.swift",
+      "kind": "StringLiteral",
+      "offset": 2336,
+      "length": 32,
+      "value": "\"Failed to generate random salt\""
     },
     {
       "filePath": "\/Users\/amold\/Documents\/SDK-1.0\/AES-GCM Library\/AES-GCM-Repository\/AesGcmNoPadding\/AesGcmNoPadding\/QKMRZParser\/String-Ext.swift",

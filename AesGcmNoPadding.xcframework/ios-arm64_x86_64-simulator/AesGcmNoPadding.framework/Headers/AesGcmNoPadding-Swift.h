@@ -302,20 +302,35 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSString;
 @class NSData;
-@class NSURL;
-@class MRZResult;
-@class UIImage;
 
 SWIFT_CLASS("_TtC15AesGcmNoPadding23AesGcmNoPaddingAlgorith")
 @interface AesGcmNoPaddingAlgorith : NSObject
 - (NSData * _Nullable)decryptWithUniqueKeyId:(NSString * _Nonnull)uniqueKeyId publicKey:(NSString * _Nonnull)publicKey encryptedData:(NSData * _Nonnull)encryptedData SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)zipURLWithSourceURL:(NSURL * _Nonnull)sourceURL destinationURL:(NSURL * _Nonnull)destinationURL SWIFT_WARN_UNUSED_RESULT;
-- (MRZResult * _Nullable)parseMrzWithStrings:(NSArray<NSString *> * _Nonnull)strings SWIFT_WARN_UNUSED_RESULT;
-- (NSData * _Nullable)scalImageWithResizedImage:(UIImage * _Nonnull)resizedImage squareSize:(CGSize)squareSize isQuantized:(BOOL)isQuantized SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface AesGcmNoPaddingAlgorith (SWIFT_EXTENSION(AesGcmNoPadding))
 - (NSString * _Nonnull)coverWithPlainText:(NSString * _Nonnull)plainText salt:(NSString * _Nonnull)salt key:(NSString * _Nonnull)key SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)deCoverWithCoveredString:(NSString * _Nonnull)coveredString salt:(NSString * _Nonnull)salt key:(NSString * _Nonnull)key SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)generateRanbomKey SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSURL;
+@class MRZResult;
+@class UIImage;
+
+@interface AesGcmNoPaddingAlgorith (SWIFT_EXTENSION(AesGcmNoPadding))
+- (BOOL)zipURLWithSourceURL:(NSURL * _Nonnull)sourceURL destinationURL:(NSURL * _Nonnull)destinationURL SWIFT_WARN_UNUSED_RESULT;
+- (MRZResult * _Nullable)parseMrzWithStrings:(NSArray<NSString *> * _Nonnull)strings SWIFT_WARN_UNUSED_RESULT;
+- (NSData * _Nullable)scalImageWithResizedImage:(UIImage * _Nonnull)resizedImage squareSize:(CGSize)squareSize isQuantized:(BOOL)isQuantized SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface AesGcmNoPaddingAlgorith (SWIFT_EXTENSION(AesGcmNoPadding))
+- (NSData * _Nonnull)decryptRequestWithDataWithEncryptedPayload:(NSData * _Nonnull)encryptedPayload secret:(NSString * _Nonnull)secret knownSecret:(NSString * _Nonnull)knownSecret SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)decryptRequestWithEncryptedPayload:(NSString * _Nonnull)encryptedPayload secret:(NSString * _Nonnull)secret knownSecret:(NSString * _Nonnull)knownSecret SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)encryptRequestWithPayload:(NSString * _Nonnull)payload secret:(NSString * _Nonnull)secret knownSecret:(NSString * _Nonnull)knownSecret SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -661,20 +676,35 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSString;
 @class NSData;
-@class NSURL;
-@class MRZResult;
-@class UIImage;
 
 SWIFT_CLASS("_TtC15AesGcmNoPadding23AesGcmNoPaddingAlgorith")
 @interface AesGcmNoPaddingAlgorith : NSObject
 - (NSData * _Nullable)decryptWithUniqueKeyId:(NSString * _Nonnull)uniqueKeyId publicKey:(NSString * _Nonnull)publicKey encryptedData:(NSData * _Nonnull)encryptedData SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)zipURLWithSourceURL:(NSURL * _Nonnull)sourceURL destinationURL:(NSURL * _Nonnull)destinationURL SWIFT_WARN_UNUSED_RESULT;
-- (MRZResult * _Nullable)parseMrzWithStrings:(NSArray<NSString *> * _Nonnull)strings SWIFT_WARN_UNUSED_RESULT;
-- (NSData * _Nullable)scalImageWithResizedImage:(UIImage * _Nonnull)resizedImage squareSize:(CGSize)squareSize isQuantized:(BOOL)isQuantized SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface AesGcmNoPaddingAlgorith (SWIFT_EXTENSION(AesGcmNoPadding))
 - (NSString * _Nonnull)coverWithPlainText:(NSString * _Nonnull)plainText salt:(NSString * _Nonnull)salt key:(NSString * _Nonnull)key SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)deCoverWithCoveredString:(NSString * _Nonnull)coveredString salt:(NSString * _Nonnull)salt key:(NSString * _Nonnull)key SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)generateRanbomKey SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSURL;
+@class MRZResult;
+@class UIImage;
+
+@interface AesGcmNoPaddingAlgorith (SWIFT_EXTENSION(AesGcmNoPadding))
+- (BOOL)zipURLWithSourceURL:(NSURL * _Nonnull)sourceURL destinationURL:(NSURL * _Nonnull)destinationURL SWIFT_WARN_UNUSED_RESULT;
+- (MRZResult * _Nullable)parseMrzWithStrings:(NSArray<NSString *> * _Nonnull)strings SWIFT_WARN_UNUSED_RESULT;
+- (NSData * _Nullable)scalImageWithResizedImage:(UIImage * _Nonnull)resizedImage squareSize:(CGSize)squareSize isQuantized:(BOOL)isQuantized SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface AesGcmNoPaddingAlgorith (SWIFT_EXTENSION(AesGcmNoPadding))
+- (NSData * _Nonnull)decryptRequestWithDataWithEncryptedPayload:(NSData * _Nonnull)encryptedPayload secret:(NSString * _Nonnull)secret knownSecret:(NSString * _Nonnull)knownSecret SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)decryptRequestWithEncryptedPayload:(NSString * _Nonnull)encryptedPayload secret:(NSString * _Nonnull)secret knownSecret:(NSString * _Nonnull)knownSecret SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)encryptRequestWithPayload:(NSString * _Nonnull)payload secret:(NSString * _Nonnull)secret knownSecret:(NSString * _Nonnull)knownSecret SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
