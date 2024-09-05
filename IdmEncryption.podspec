@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Idmission LLC" => "amol.deshmukh@idmission.com" }
   spec.source       = { :git => "https://github.com/Idmission-LLC/IdmEncryption.git", :tag => "#{spec.version}" }
   spec.platform     = :ios
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "12.0"
   spec.swift_version = "5"
   spec.ios.vendored_frameworks = 'AesGcmNoPadding.xcframework'
 
