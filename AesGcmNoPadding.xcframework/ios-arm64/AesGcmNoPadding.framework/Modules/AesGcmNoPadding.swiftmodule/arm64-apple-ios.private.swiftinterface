@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AesGcmNoPadding
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AesGcmNoPadding
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Accelerate
 @_exported import AesGcmNoPadding
 import CommonCrypto
@@ -85,7 +85,7 @@ extension Foundation.Data {
   @available(*, deprecated, message: "Please use `Int64` for `size` and provider `position`.")
   public static func decompress(size: Swift.Int, bufferSize: Swift.Int, skipCRC32: Swift.Bool, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> AesGcmNoPadding.CRC32
 }
-public typealias FILEPointer = Swift.UnsafeMutablePointer<Darwin.FILE>
+public typealias FILEPointer = Swift.UnsafeMutablePointer<_stdio.FILE>
 extension AesGcmNoPadding.AesGcmNoPaddingAlgorith {
   @objc dynamic open func zipURL(sourceURL: Foundation.URL, destinationURL: Foundation.URL) -> Swift.Bool
   @objc dynamic open func parseMrz(strings: [Swift.String]) -> AesGcmNoPadding.MRZResult?
