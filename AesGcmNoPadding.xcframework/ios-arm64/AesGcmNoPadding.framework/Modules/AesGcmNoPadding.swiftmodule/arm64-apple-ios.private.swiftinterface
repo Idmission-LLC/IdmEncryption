@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AesGcmNoPadding
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Accelerate
@@ -243,6 +243,11 @@ extension Foundation.URL {
 public class MetalBilinearScaler {
   public init()
   @objc deinit
+}
+extension AesGcmNoPadding.AesGcmNoPaddingAlgorith {
+  @objc dynamic open func decryptUsingPublicKey(encryptedFileData: Foundation.Data, publicKeyData: Foundation.Data) throws -> Swift.String
+  @objc dynamic open func encryptUsingPublicKey(fileDataToEncrypt: Foundation.Data, publicKeyData: Foundation.Data) throws -> Foundation.Data
+  @objc dynamic open func getMd5ForRequest(_ requestForMD5: Swift.String) -> Swift.String
 }
 extension AesGcmNoPadding.Entry.EntryType : Swift.Equatable {}
 extension AesGcmNoPadding.Entry.EntryType : Swift.Hashable {}

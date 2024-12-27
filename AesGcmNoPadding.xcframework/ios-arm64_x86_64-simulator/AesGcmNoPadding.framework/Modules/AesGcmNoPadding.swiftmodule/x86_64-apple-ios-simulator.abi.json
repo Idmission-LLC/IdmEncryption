@@ -5014,6 +5014,116 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptUsingPublicKey",
+            "printedName": "decryptUsingPublicKey(encryptedFileData:publicKeyData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)decryptUsingPublicKeyWithEncryptedFileData:publicKeyData:error:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC21decryptUsingPublicKey17encryptedFileData06publiciL0SS10Foundation0L0V_AItKF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "decryptUsingPublicKeyWithEncryptedFileData:publicKeyData:error:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encryptUsingPublicKey",
+            "printedName": "encryptUsingPublicKey(fileDataToEncrypt:publicKeyData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)encryptUsingPublicKeyWithFileDataToEncrypt:publicKeyData:error:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC21encryptUsingPublicKey17fileDataToEncrypt06publiciK010Foundation0K0VAI_AItKF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "objc_name": "encryptUsingPublicKeyWithFileDataToEncrypt:publicKeyData:error:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMd5ForRequest",
+            "printedName": "getMd5ForRequest(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AesGcmNoPadding@objc(cs)AesGcmNoPaddingAlgorith(im)getMd5ForRequest:",
+            "mangledName": "$s15AesGcmNoPadding0abcD8AlgorithC16getMd5ForRequestyS2SF",
+            "moduleName": "AesGcmNoPadding",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -6749,6 +6859,23 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "AesGcmNoPadding"
       },
       {
         "kind": "Import",
